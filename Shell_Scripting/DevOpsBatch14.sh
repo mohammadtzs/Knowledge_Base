@@ -7,3 +7,5 @@ curl -s "$API_URL" \
   -H "Authorization: Bearer $API_KEY" \
   -H "Accept: application/json" \
 | jq '.customers[0:5]'
+
+###hi this is a test fuile
